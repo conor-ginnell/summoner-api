@@ -1,8 +1,8 @@
-package com.staxrt.demo.controller;
+package com.staxrt.summoner.controller;
 
-import com.staxrt.demo.model.User;
-import com.staxrt.demo.exception.ResourceNotFoundException;
-import com.staxrt.demo.repository.UserRepository;
+import com.staxrt.summoner.model.User;
+import com.staxrt.summoner.exception.ResourceNotFoundException;
+import com.staxrt.summoner.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

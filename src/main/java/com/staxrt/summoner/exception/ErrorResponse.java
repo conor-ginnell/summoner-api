@@ -1,4 +1,4 @@
-package com.staxrt.demo.exception;
+package com.staxrt.summoner.exception;
 
 import java.util.Date;
 

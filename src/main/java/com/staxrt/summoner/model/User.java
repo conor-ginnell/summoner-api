@@ -1,6 +1,5 @@
-package com.staxrt.demo.model;
+package com.staxrt.summoner.model;
 
-import com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;

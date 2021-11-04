@@ -1,4 +1,4 @@
-package com.staxrt.demo.exception;
+package com.staxrt.summoner.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

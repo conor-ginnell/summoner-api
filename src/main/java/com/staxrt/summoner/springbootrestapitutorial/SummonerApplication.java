@@ -1,13 +1,13 @@
-package com.staxrt.demo.springbootrestapitutorial;
+package com.staxrt.summoner.springbootrestapitutorial;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootRestApiTutorialApplication {
+public class SummonerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootRestApiTutorialApplication.class, args);
+		SpringApplication.run(SummonerApplication.class, args);
 	}
 
 }

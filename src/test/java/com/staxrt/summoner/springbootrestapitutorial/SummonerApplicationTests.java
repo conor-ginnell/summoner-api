@@ -1,6 +1,6 @@
-package com.staxrt.demo.springbootrestapitutorial;
+package com.staxrt.summoner.springbootrestapitutorial;
 
-import com.staxrt.demo.model.User;
+import com.staxrt.summoner.model.User;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -13,8 +13,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = SpringBootRestApiTutorialApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class SpringBootRestApiTutorialApplicationTests {
+@SpringBootTest(classes = SummonerApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+public class SummonerApplicationTests {
 
 	@Autowired
 	private TestRestTemplate restTemplate;
