@@ -19,4 +19,8 @@ public class CreaturePersistence {
     public Creature get(String name) {
         return creatureMap.get(name);
     }
+
+    public void put(Creature creature) {
+        creatureMap.put(creature.name(), creature);
+    }
 }

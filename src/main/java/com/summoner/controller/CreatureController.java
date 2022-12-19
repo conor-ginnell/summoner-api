@@ -3,10 +3,7 @@ package com.summoner.controller;
 import com.summoner.model.Creature;
 import com.summoner.service.CreatureService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value="/creature/")
@@ -20,5 +17,10 @@ public class CreatureController {
     @GetMapping(value="/{name}")
     public Creature getCreature(@PathVariable String name) {
         return creatureService.findByName(name);
+    }
+
+    @PostMapping
+    public void create(@RequestBody Creature creature) {
+        creatureService.create(creature);
     }
 }

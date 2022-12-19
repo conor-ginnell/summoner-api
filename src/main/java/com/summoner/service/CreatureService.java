@@ -16,4 +16,8 @@ public class CreatureService {
     public Creature findByName(String name) {
         return creaturePersistence.get(name);
     }
+
+    public void create(Creature creature) {
+        creaturePersistence.put(creature);
+    }
 }
